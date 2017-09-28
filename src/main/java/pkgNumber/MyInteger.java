@@ -60,11 +60,11 @@ public class MyInteger {
 		return isPrime(getiValue());
 	}
 	
-	public boolean equals(int num) {
+	public boolean isEquals(int num) {
 		return (num == getiValue());
 	}
 	
-	public boolean equals(MyInteger num) {
+	public boolean isEquals(MyInteger num) {
 		return equals(getiValue());
 	}
 	
